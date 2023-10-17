@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e2c04e;
+    color: #000000;
+}
+
+.container {
+    text-align: center;
+}
+
+#quote-container {
+    background-color: #f1e9e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(228, 29, 29, 0.2);
+}
+
+#quote-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
