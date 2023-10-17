@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffeaa7; /* Light yellow background */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #2d3436; /* Dark gray heading */
+}
+
+p {
+    color: #636e72; /* Gray text */
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #6ab04c; /* Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4f922e; /* Darker green on hover */
+}
+
+#mealResult {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #3498db; /* Blue text for meal result */
+}
